@@ -85,19 +85,19 @@ variable "key_name" {
 variable "domain_name" {
   description = "Primary domain name for certificate issuance"
   type        = string
-  default     = "*.olaoluwa.com"
+  default     = "*.ayo-deji.com"
 }
 
 variable "san_domains" {
   description = "SANs (Subject Alternative Names) for SSL certificate"
   type        = list(string)
-  default     = ["*.olaoluwa.com"]
+  default     = ["*.ayo-deji.com"]
 }
 
 variable "route53_zone_id" {
   description = "Route 53 hosted zone ID for domain validation"
   type        = string
-  default     = "Z0346807ITV0DKJ5L8JT"
+  default     = "Z03771041D81W4S5M1LE0"
 }
 
 ################################################################################
