@@ -52,7 +52,7 @@ variable "cluster_name" {
 variable "rolearn" {
   description = "IAM role ARN to be added to the aws-auth configmap as admin"
   type        = string
-  default     = "arn:aws:iam::691554637904:role/terraform-create-role"
+  default     = "arn:aws:iam::691554637904:user/olaoluwa"
 }
 
 
@@ -75,7 +75,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 Key Pair name for SSH access"
   type        = string
-  default     = "class39-dominion"
+  default     = "olaoluwa"
 }
 
 ################################################################################
