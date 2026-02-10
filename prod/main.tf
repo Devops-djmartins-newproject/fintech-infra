@@ -22,7 +22,7 @@ module "eks" {
   vpc_id             = module.vpc.vpc_id
   private_subnets    = module.vpc.private_subnets
 
-  # Enables EKS to bootstrap and manage the core addons
+  # Enables EKS to bootstrap and manage the core addons.
 
   tags     = local.common_tags
   env_name = var.env_name
